@@ -242,12 +242,6 @@ if (cadre) {
         motsCles: "dessins œuvres images art"
       },
       {
-        titre: "Produits",
-        description: "Présentation des œuvres disponibles",
-        url: "produits.html",
-        motsCles: "vente prix tableaux dessins"
-      },
-      {
         titre: "Cotation",
         description: "Cotation AKOUN",
         url: "cotation.html",

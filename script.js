@@ -116,7 +116,7 @@ if (cadre) {
       {
         titre: "Le marché aux esclaves",
         description: "Dessin de GOLI Gore Gbaka",
-        url: "le-marche-aux esclaves.html",
+        url: "le-marche-aux-esclaves.html",
         motsCles: "marche esclaves"
       },
       {

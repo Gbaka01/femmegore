@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Accueil -->
+  <url>
+    <loc>https://femmegore.fr/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Pages principales -->
+  <url>
+    <loc>https://femmegore.fr/galerie.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://femmegore.fr/a-propos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://femmegore.fr/cotation.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://femmegore.fr/mentions-legales.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- Œuvres (issues de la galerie) -->
+  <url>
+    <loc>https://femmegore.fr/le-marche-aux-esclaves.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://femmegore.fr/jupiter-et-thetis.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://femmegore.fr/les-baigneuses.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://femmegore.fr/les-trois-graces.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://femmegore.fr/la-naissance-de-venus.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://femmegore.fr/la-liberte-guidant-le-peuple.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://femmegore.fr/bethsabee-au-bain-tenant-la-lettre-du-roi-david.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://femmegore.fr/le-christ-et-la-samaritaine.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://femmegore.fr/la-fiancee-juive.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://femmegore.fr/l-odalisque-blonde.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://femmegore.fr/the-woman-taken-in-adultery.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+    <url>
+    <loc>https://femmegore.fr/la-visitation.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+    <url>
+    <loc>https://femmegore.fr/la-madone-des-pèlerins.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+    <url>
+    <loc>https://femmegore.fr/la-madone-des-palefreniers.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+    <url>
+    <loc>https://femmegore.fr/la-force.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+    <url>
+    <loc>https://femmegore.fr/l-origine-du-monde.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+    <url>
+    <loc>https://femmegore.fr/eglise-notre-dame-de-france-juvisy-sur-orge.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+    <url>
+    <loc>https://femmegore.fr/la-conversion-de-saint-paul.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+       
+    <url>
+    <loc>https://femmegore.fr/la-mort-de-la-vierge.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>    
+</urlset>

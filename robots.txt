@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Bloquer dossiers inutiles
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+Disallow: /tmp/
+
+# Sitemap du site
+Sitemap: https://femmegore.fr/sitemap.xml

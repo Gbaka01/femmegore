@@ -146,5 +146,23 @@
     <loc>https://femmegore.fr/la-mort-de-la-vierge.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url> 
+
+      <url>
+    <loc>https://femmegore.fr/l-heureuse-mere.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>    
+
+      <url>
+    <loc>https://femmegore.fr/jesus-et-la-cananeenne.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+        <url>
+    <loc>https://femmegore.fr/la-parabole-du-tresor-cache.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>              
 </urlset>

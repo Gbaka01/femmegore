@@ -227,6 +227,12 @@ if (cadre) {
         url: "bethsabee-au-bain-tenant-la-lettre-du-roi-david.html",
         motsCles: "bethsabee bain lettre  roi david"
       },
+      {
+        titre: "La parabole du trésor caché",
+        description: "Dessin de GOLI Gore Gbaka",
+        url: "la-parabole-du-tresor-cache.html",
+        motsCles: "parabole tresor cache"
+      },
 
 
       {

@@ -233,6 +233,12 @@ if (cadre) {
         url: "la-parabole-du-tresor-cache.html",
         motsCles: "parabole tresor cache"
       },
+      {
+        titre: "Le Christ remettant les clés à saint Pierre",
+        description: "Dessin de GOLI Gore Gbaka",
+        url: "le-christ-remettant-les-cles-a-saint-pierre.html",
+        motsCles: "christ remettant cles saint pierre"
+      },
 
 
       {
@@ -336,5 +342,20 @@ if (cadre) {
     });
 
     zoneResultats.append(titre, liste);
+
+  }
+  
+});
+document.addEventListener("DOMContentLoaded", () => {
+  const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+  if (scrollTopBtn) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        scrollTopBtn.classList.add('show');
+      } else {
+        scrollTopBtn.classList.remove('show');
+      }
+    });
   }
 });

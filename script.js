@@ -239,6 +239,12 @@ if (cadre) {
         url: "le-christ-remettant-les-cles-a-saint-pierre.html",
         motsCles: "christ remettant cles saint pierre"
       },
+      {
+        titre: "L'enlèvement des filles de Leucippe",
+        description: "Dessin de GOLI Gore Gbaka",
+        url: "l-enlevement-des-filles-de-leucippe.html",
+        motsCles: "enlevement filles leucippe"
+      },
 
 
       {

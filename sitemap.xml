@@ -164,5 +164,17 @@
     <loc>https://femmegore.fr/la-parabole-du-tresor-cache.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+
+          <url>
+    <loc>https://femmegore.fr/le-christ-remettant-les-cles-a-saint-pierre.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+          <url>
+    <loc>https://femmegore.fr/l-enlevement-des-filles-de-leucippe.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>              
 </urlset>

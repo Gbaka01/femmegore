@@ -1,10 +1,95 @@
 <!DOCTYPE html>
-<html lang="fr-FR">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulaire de contact | Femme-Goré</title>
+<style>
+  :root {
+    --accent: #dc3545;
+    --text: #222;
+    --border: #ddd;
+    --bg: #fafafa;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    padding: 40px 16px;
+    margin: 0;
+  }
+  .contact-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    padding: 32px;
+    width: 100%;
+    max-width: 480px;
+  }
+  h1 {
+    font-size: 1.4rem;
+    margin: 0 0 24px;
+    color: var(--text);
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 10px;
+  }
+  label {
+    display: block;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin: 16px 0 6px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+  }
+  input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  button {
+    margin-top: 22px;
+    width: 100%;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    padding: 13px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  button:hover { opacity: 0.9; }
+  button:disabled { opacity: 0.6; cursor: not-allowed; }
+  .msg {
+    margin-top: 16px;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    display: none;
+  }
+  .msg.success { background: #e6f6ea; color: #1e7e34; display: block; }
+  .msg.error { background: #fdecea; color: #c0392b; display: block; }
+  .error-text {
+    color: #c0392b;
+    font-size: 0.8rem;
+    margin-top: 4px;
+    display: none;
+  }
+</style>
 
-  <title>Mentions légales | Femme-Goré</title>
 
   <script type="application/ld+json">
   {
@@ -19,29 +104,29 @@
   <meta name="author" content="GOLI Gore Gbaka">
   <meta
     name="description"
-    content="Consultez les mentions légales du site Femme-Goré de Goli Gore Gbaka."
+    content="Découvrez le projet artistique Femme-Goré de Goli Gore Gbaka, consacré au corps féminin, à la ligne, au mouvement et au symbolisme."
   >
   <meta
     name="keywords"
-    content="mentions légales, Femme-Goré, Goli Gore Gbaka, site artiste, hébergement OVH"
+    content="dessin corps féminin, art du corps féminin, dessin symbolisme, Goli Gore Gbaka artiste, Femme-Goré, art, corps féminin"
   >
   <meta name="robots" content="index, follow">
   <meta name="googlebot" content="index, follow">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="canonical" href="https://femmegore.fr/mentions-legales.html">
+  <link rel="canonical" href="https://femmegore.fr/formulaire.html">
   <link rel="shortcut icon" href="favicon.ico?v=1" type="image/x-icon">
 
-  <meta property="og:title" content="Mentions légales | Femme-Goré">
-  <meta property="og:url" content="https://femmegore.fr/mentions-legales.html">
+  <meta property="og:title" content="Formulaire de contact | Femme-Goré">
+  <meta property="og:url" content="https://femmegore.fr/formulaire.html">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:image" content="https://femmegore.fr/moi-et-marie-anna.jpg">
-  <meta property="og:description" content="Consultez les mentions légales du site Femme-Goré de Goli Gore Gbaka.">
+  <meta property="og:description" content="Découvrez le projet artistique Femme-Goré de Goli Gore Gbaka.">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Mentions légales | Femme-Goré">
-  <meta name="twitter:description" content="Consultez les mentions légales du site Femme-Goré de Goli Gore Gbaka.">
+  <meta name="twitter:title" content="Formulaire de contact | Femme-Goré">
+  <meta name="twitter:description" content="Découvrez le projet artistique Femme-Goré de Goli Gore Gbaka.">
   <meta name="twitter:image" content="https://femmegore.fr/moi-et-marie-anna.jpg">
 
   <meta name="google-adsense-account" content="ca-pub-9240019120561886">
@@ -73,6 +158,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-N58H8LW2');</script>
 <!-- End Google Tag Manager -->
+  
 </head>
 
 <body>
@@ -103,7 +189,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <a class="nav-link" href="https://femmegore.fr/">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="a-propos.html">À propos</a>
+              <a class="nav-link active" aria-current="page" href="a-propos.html">À propos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="galerie.html">Galerie</a>
@@ -112,7 +198,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <a class="nav-link" href="cotation.html">Cotation AKOUN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="mentions-legales.html">Mentions légales</a>
+              <a class="nav-link" href="mentions-legales.html">Mentions légales</a>
             </li>
                             <li class="nav-item">
               <a class="nav-link" href="recherche.html">Rechercher</a>
@@ -122,79 +208,108 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </li>
           </ul>
 
-  
+      
         </div>
       </div>
     </nav>
   </header>
+</head>
+<body>
 
-  <main class="container py-5">
-    <h1 class="text-center mb-4">Mentions légales</h1>
+<div class="contact-card">
+  <h1>Me contacter</h1>
+  <form id="contactForm" novalidate>
+    <label for="name">Nom</label>
+    <input type="text" id="name" name="name" required>
+    <span class="error-text" id="nameError">Merci d'indiquer votre nom.</span>
 
-    <nav aria-label="breadcrumb" class="mb-4">
-      <ol class="breadcrumb justify-content-center">
-        <li class="breadcrumb-item"><a href="https://femmegore.fr/">Accueil</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Mentions légales</li>
-      </ol>
-    </nav>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+    <span class="error-text" id="emailError">Merci d'indiquer un email valide.</span>
 
-    <section class="row justify-content-center">
-      <div class="col-12 col-lg-10">
-        <div class="card shadow-sm border-0 p-4">
-          <h2 class="h4 mb-3">Édition du site</h2>
-          <p>
-            Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique,
-            il est précisé aux utilisateurs du site Femme-Goré l'identité des différents intervenants dans le cadre de sa
-            réalisation et de son suivi.
-          </p>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required></textarea>
+    <span class="error-text" id="messageError">Merci d'écrire un message.</span>
 
-          <p>
-            Le présent site, accessible à l’URL
-            <a href="https://femmegore.fr/">https://femmegore.fr</a>,
-            est édité par :
-          </p>
+    <!-- Piège à robots (anti-spam), doit rester vide et invisible -->
+    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 
-          <p>
-            Gore Gbaka GOLI, résidant 16 rue de Chatillon, 91260 Juvisy-sur-Orge, de nationalité française, né le 28/04/1980.
-          </p>
+    <button type="submit" id="submitBtn">Envoyer</button>
+    <div class="msg" id="formMsg"></div>
+  </form>
+</div>
 
-          <h2 class="h4 mt-4 mb-3">Hébergement</h2>
-          <p>
-            Le site est hébergé par la société OVH SAS, située 2 rue Kellermann - BP 80157 - 59053 Roubaix Cedex 1,
-            joignable au 1007.
-          </p>
+<script>
+// Remplacez cette URL par la vôtre, obtenue gratuitement sur https://formspree.io
+// (créez un compte, un formulaire, et copiez l'URL "endpoint" fournie)
+const FORM_ENDPOINT = "https://formspree.io/f/mbgjwkjz";
 
-          <h2 class="h4 mt-4 mb-3">Directeur de la publication</h2>
-          <p>
-            Le directeur de la publication du site est Gore Gbaka GOLI.
-          </p>
+const form = document.getElementById('contactForm');
+const submitBtn = document.getElementById('submitBtn');
+const formMsg = document.getElementById('formMsg');
 
-          <h2 class="h4 mt-4 mb-3">Nous contacter</h2>
-          <p class="mb-1">Par téléphone : +33 7 60 29 23 63</p>
-          <p class="mb-1">Par email : gore.goli@gmail.com</p>
-          <p>Par courrier : 16 rue de Chatillon, 91260 Juvisy-sur-Orge</p>
+function showFieldError(fieldId, show) {
+  document.getElementById(fieldId + 'Error').style.display = show ? 'block' : 'none';
+}
 
-          <p class="mt-4 mb-0">
-            Génération des mentions légales par Legalstart.
-          </p>
-        </div>
-      </div>
-    </section>
-  </main>
+function validate() {
+  let valid = true;
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const message = document.getElementById('message').value.trim();
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-  <footer class="bg-dark text-light p-3 mt-4">
+  showFieldError('name', name === '');
+  if (name === '') valid = false;
+
+  showFieldError('email', !emailPattern.test(email));
+  if (!emailPattern.test(email)) valid = false;
+
+  showFieldError('message', message === '');
+  if (message === '') valid = false;
+
+  return valid;
+}
+
+form.addEventListener('submit', async function (e) {
+  e.preventDefault();
+  formMsg.className = 'msg';
+  formMsg.textContent = '';
+
+  if (!validate()) return;
+
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Envoi en cours...';
+
+  try {
+    const response = await fetch(FORM_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Accept': 'application/json' },
+      body: new FormData(form)
+    });
+
+    if (response.ok) {
+      formMsg.className = 'msg success';
+      formMsg.textContent = 'Merci, votre message a bien été envoyé !';
+      form.reset();
+    } else {
+      throw new Error('Erreur serveur');
+    }
+  } catch (err) {
+    formMsg.className = 'msg error';
+    formMsg.textContent = "Une erreur est survenue. Merci de réessayer, ou de m'écrire directement par email.";
+  } finally {
+    submitBtn.disabled = false;
+    submitBtn.textContent = 'Envoyer';
+  }
+});
+</script>
+ <footer class="bg-dark text-light p-3 mt-4">
     <div class="container">
       <div class="d-flex flex-column flex-md-row fs-5 justify-content-between align-items-center gap-3">
         <p class="mb-0 text-center">GOLI Gore Gbaka - © Copyright 2026</p>
 
         <div class="d-flex align-items-center gap-3">
-          <a
-            href="https://www.facebook.com/?locale=fr_FR"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Facebook"
-            class="text-light"
-          >
     
 
           <a

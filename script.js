@@ -245,6 +245,12 @@ if (cadre) {
         url: "l-enlevement-des-filles-de-leucippe.html",
         motsCles: "enlevement filles leucippe"
       },
+      {
+        titre: "Danaé et la pluie d'or",
+        description: "Dessin de GOLI Gore Gbaka",
+        url: "danae-et-la-pluie-d-or.html",
+        motsCles: "danae pluie or"
+      },
 
 
       {

@@ -33,6 +33,12 @@
     <priority>0.50</priority>
   </url>
 
+    <url>
+    <loc>https://femmegore.fr/formulaire.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
   <!-- Œuvres (issues de la galerie) -->
   <url>
     <loc>https://femmegore.fr/le-marche-aux-esclaves.html</loc>

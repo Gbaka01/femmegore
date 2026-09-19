@@ -54,6 +54,8 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   >
+    <link rel="stylesheet" href="consent.css">
+
   <link rel="stylesheet" href="style.css">
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-67NY38SF7T"></script>
@@ -217,6 +219,8 @@ Chaque absence est une présence.
 </main>
 
   <footer class="bg-dark text-light p-3 mt-4">
+        <button class="link-btn" id="open-preferences" type="button">Gérer mes cookies</button>
+
     <div class="container">
       <div class="d-flex flex-column flex-md-row fs-5 justify-content-between align-items-center gap-3">
         <p class="mb-0 text-center">GOLI Gore Gbaka - © Copyright 2026</p>
@@ -256,7 +260,57 @@ Chaque absence est une présence.
       <p class="jeu d-flex fs-5 justify-content-center mt-3 mb-0">X.XX</p>
     </div>
   </footer>
+  <section class="consent-banner" id="consent-banner" role="region" aria-labelledby="consent-title" hidden>
+  <div class="consent-inner">
+    <div class="consent-text">
+      <h2 id="consent-title">Vos choix sur les cookies</h2>
+      <p>
+        Nous utilisons des cookies pour mesurer l’audience du site et afficher des contenus tiers.
+        Vous pouvez tout accepter, tout refuser ou choisir service par service.
+      </p>
+    </div>
+    <div class="consent-actions">
+      <button class="btn btn-outline" type="button" data-action="customize">Personnaliser</button>
+      <button class="btn" type="button" data-action="accept">Tout accepter</button>
+    </div>
+  </div>
+</section>
 
+<!-- Préférences détaillées -->
+<dialog class="consent-dialog" id="consent-dialog" aria-labelledby="dialog-title">
+  <h2 id="dialog-title">Préférences de cookies</h2>
+  <p>Choisissez les services que vous autorisez. Vous pourrez modifier ce choix à tout moment.</p>
+
+  <div class="category">
+    <label for="c-essential">
+      <strong>Essentiels</strong>
+      <span>Nécessaires au fonctionnement du site. Toujours actifs.</span>
+    </label>
+    <input type="checkbox" id="c-essential" checked disabled>
+  </div>
+
+  <div class="category">
+    <label for="c-analytics">
+      <strong>Mesure d’audience</strong>
+      <span>Nous aide à comprendre comment le site est utilisé.</span>
+    </label>
+    <input type="checkbox" id="c-analytics" data-category="analytics">
+  </div>
+
+  <div class="category">
+    <label for="c-media">
+      <strong>Contenus tiers</strong>
+      <span>Vidéos et cartes intégrées depuis d’autres sites.</span>
+    </label>
+    <input type="checkbox" id="c-media" data-category="media">
+  </div>
+
+  <div class="dialog-actions">
+    <button class="btn btn-outline" type="button" data-action="cancel">Annuler</button>
+    <button class="btn" type="button" data-action="save">Enregistrer mes choix</button>
+  </div>
+</dialog>
+  <script src="consent.js"></script>
   <script src="script.js" defer></script>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -264,5 +318,6 @@ Chaque absence est une présence.
     crossorigin="anonymous"
     defer
   ></script>
+
 </body>
 </html>

@@ -260,6 +260,18 @@ Chaque absence est une présence.
       <p class="jeu d-flex fs-5 justify-content-center mt-3 mb-0">X.XX</p>
     </div>
   </footer>
+  <script type="text/plain" data-consent="analytics" async
+   src="https://www.googletagmanager.com/gtag/js?id=GTM-N58H8LW2"></script>
+
+<script type="text/plain" data-consent="analytics">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'GTM-N58H8LW2', {
+    cookie_expires: 34128000   // 13 mois en secondes (optionnel)
+  });
+</script>
+
   <section class="consent-banner" id="consent-banner" role="region" aria-labelledby="consent-title" hidden>
   <div class="consent-inner">
     <div class="consent-text">
@@ -270,6 +282,7 @@ Chaque absence est une présence.
       </p>
     </div>
     <div class="consent-actions">
+          <button class="btn" type="button" data-action="reject">Tout refuser</button>
       <button class="btn btn-outline" type="button" data-action="customize">Personnaliser</button>
       <button class="btn" type="button" data-action="accept">Tout accepter</button>
     </div>

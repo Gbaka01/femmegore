@@ -220,7 +220,7 @@
       <div class="d-flex flex-column flex-md-row fs-5 justify-content-between align-items-center gap-3">
         <div>
           GOLI Gore Gbaka — © <span id="annee"></span> ·
-          <a href="#" class="text-light" data-fgc-ouvrir>Gérer mes cookies</a>
+          <a href="#" class="text-light" data-cookie-manage>Gérer mes cookies</a>
         </div>
  
         <div class="d-flex align-items-center gap-3">
@@ -258,13 +258,13 @@
  
   <!--
     Mesure d'audience : chargée UNIQUEMENT après consentement.
-    type="text/plain" + data-consent="audience" : consentement.js les active après accord.
+    type="text/plain" + data-cookie-category="audience" : cookie-consent.js les active après accord.
     Vérifiez que la balise GA4 n'est pas aussi configurée dans le conteneur GTM,
     sinon les visites seraient comptées en double.
   -->
-  <script type="text/plain" data-consent="audience" async
-    data-src="https://www.googletagmanager.com/gtag/js?id=G-67NY38SF7T"></script>
-  <script type="text/plain" data-consent="audience">
+  <script type="text/plain" data-cookie-category="audience" async
+    src="https://www.googletagmanager.com/gtag/js?id=G-67NY38SF7T"></script>
+  <script type="text/plain" data-cookie-category="audience">
     window.dataLayer = window.dataLayer || [];
     function gtag(){ dataLayer.push(arguments); }
     gtag('js', new Date());
@@ -272,7 +272,7 @@
       cookie_expires: 34128000 // 13 mois en secondes
     });
   </script>
-  <script type="text/plain" data-consent="audience">
+  <script type="text/plain" data-cookie-category="audience">
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -284,8 +284,8 @@
     document.getElementById("annee").textContent = new Date().getFullYear();
   </script>
  
-  <!-- Bandeau de consentement : il crée lui-même son HTML et son CSS -->
-  <script src="consentement.js" defer></script>
+  <!-- Bandeau de consentement (le même sur toutes les pages) : il crée lui-même son HTML et son CSS -->
+  <script src="cookie-consent.js" defer></script>
   <script src="script.js" defer></script>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

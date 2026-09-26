@@ -1,137 +1,64 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Formulaire de contact | Femme-Goré</title>
-<style>
-  :root {
-    --accent: #dc3545;
-    --text: #222;
-    --border: #ddd;
-    --bg: #fafafa;
-  }
-  * { box-sizing: border-box; }
-  body {
-    font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    margin: 0;
-  }
-  .contact-wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 40px 16px;
-  }
-  .contact-card {
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-    padding: 32px;
-    width: 100%;
-    max-width: 480px;
-  }
-  h1 {
-    font-size: 1.4rem;
-    margin: 0 0 24px;
-    color: var(--text);
-    border-bottom: 3px solid var(--accent);
-    padding-bottom: 10px;
-  }
-  label {
-    display: block;
-    font-weight: 600;
-    font-size: 0.9rem;
-    margin: 16px 0 6px;
-  }
-  input, textarea {
-    width: 100%;
-    padding: 10px 12px;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    font-size: 1rem;
-    font-family: inherit;
-  }
-  input:focus, textarea:focus {
-    outline: none;
-    border-color: var(--accent);
-  }
-  textarea {
-    resize: vertical;
-    min-height: 120px;
-  }
-  button {
-    margin-top: 22px;
-    width: 100%;
-    background: var(--accent);
-    color: #fff;
-    border: none;
-    padding: 13px;
-    border-radius: 6px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: opacity 0.15s;
-  }
-  button:hover { opacity: 0.9; }
-  button:disabled { opacity: 0.6; cursor: not-allowed; }
-  .msg {
-    margin-top: 16px;
-    padding: 12px;
-    border-radius: 6px;
-    font-size: 0.9rem;
-    display: none;
-  }
-  .msg.success { background: #e6f6ea; color: #1e7e34; display: block; }
-  .msg.error { background: #fdecea; color: #c0392b; display: block; }
-  .error-text {
-    color: #c0392b;
-    font-size: 0.8rem;
-    margin-top: 4px;
-    display: none;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
+  <title>Contact | Femme-Goré, dessins de Goli Gore Gbaka</title>
+  <meta
+    name="description"
+    content="Contactez l'artiste Goli Gore Gbaka : question sur une œuvre, achat, exposition ou collaboration autour du projet Femme-Goré."
+  >
+  <meta name="author" content="GOLI Gore Gbaka">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://femmegore.fr/formulaire.html">
  
+  <link rel="icon" href="/favicon.ico?v=1" sizes="any">
+ 
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Femme-Goré">
+  <meta property="og:title" content="Contact | Femme-Goré">
+  <meta property="og:description" content="Contactez l'artiste Goli Gore Gbaka : question sur une œuvre, achat, exposition ou collaboration.">
+  <meta property="og:url" content="https://femmegore.fr/formulaire.html">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:image" content="https://femmegore.fr/moi-et-marie-anna.jpg">
+  <meta property="og:image:alt" content="Femme-Goré, dessins de l'artiste Goli Gore Gbaka">
+ 
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact | Femme-Goré">
+  <meta name="twitter:description" content="Contactez l'artiste Goli Gore Gbaka : question sur une œuvre, achat, exposition ou collaboration.">
+  <meta name="twitter:image" content="https://femmegore.fr/moi-et-marie-anna.jpg">
+  <meta name="twitter:image:alt" content="Femme-Goré, dessins de l'artiste Goli Gore Gbaka">
+ 
+  <meta name="google-adsense-account" content="ca-pub-9240019120561886">
+ 
+  <!-- Données structurées -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Goli Gore Gbaka",
-    "jobTitle": "Artist",
-    "url": "https://femmegore.fr"
+    "@type": "ContactPage",
+    "name": "Contact | Femme-Goré",
+    "url": "https://femmegore.fr/formulaire.html",
+    "inLanguage": "fr-FR",
+    "about": {
+      "@type": "Person",
+      "name": "Goli Gore Gbaka",
+      "jobTitle": "Artiste",
+      "url": "https://femmegore.fr/",
+      "sameAs": [
+        "https://www.dessinsgore.fr/",
+        "https://x.com/GoliGore33933",
+        "https://fr.pinterest.com/goregoli/"
+      ]
+    }
   }
   </script>
  
-  <meta name="author" content="GOLI Gore Gbaka">
-  <meta
-    name="description"
-    content="Découvrez le projet artistique Femme-Goré de Goli Gore Gbaka, consacré au corps féminin, à la ligne, au mouvement et au symbolisme."
-  >
-  <meta
-    name="keywords"
-    content="dessin corps féminin, art du corps féminin, dessin symbolisme, Goli Gore Gbaka artiste, Femme-Goré, art, corps féminin"
-  >
-  <meta name="robots" content="index, follow">
-  <meta name="googlebot" content="index, follow">
- 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="canonical" href="https://femmegore.fr/formulaire.html">
-  <link rel="shortcut icon" href="favicon.ico?v=1" type="image/x-icon">
- 
-  <meta property="og:title" content="Formulaire de contact | Femme-Goré">
-  <meta property="og:url" content="https://femmegore.fr/formulaire.html">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="fr_FR">
-  <meta property="og:image" content="https://femmegore.fr/moi-et-marie-anna.jpg">
-  <meta property="og:description" content="Découvrez le projet artistique Femme-Goré de Goli Gore Gbaka.">
- 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Formulaire de contact | Femme-Goré">
-  <meta name="twitter:description" content="Découvrez le projet artistique Femme-Goré de Goli Gore Gbaka.">
-  <meta name="twitter:image" content="https://femmegore.fr/moi-et-marie-anna.jpg">
- 
-  <meta name="google-adsense-account" content="ca-pub-9240019120561886">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="preconnect" href="https://formspree.io">
  
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -144,32 +71,137 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   >
   <link rel="stylesheet" href="style.css">
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-67NY38SF7T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
  
-  gtag('config', 'G-67NY38SF7T');
-</script>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N58H8LW2');</script>
-<!-- End Google Tag Manager -->
+  <style>
+    /*
+      Styles limités au bloc .contact-card : auparavant les règles
+      « button », « h1 », « input »… s'appliquaient à toute la page
+      (le bouton du menu mobile devenait rouge et pleine largeur).
+    */
+    .contact-wrapper {
+      --accent: #dc3545;
+      --text: #222;
+      --border: #ccc;
+      display: flex;
+      justify-content: center;
+      padding: 40px 16px;
+    }
+    .contact-card {
+      background: #fff;
+      color: var(--text);
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+      padding: 32px;
+      width: 100%;
+      max-width: 480px;
+      text-align: left;
+    }
+    .contact-card h1 {
+      font-size: 1.4rem;
+      margin: 0 0 8px;
+      border-bottom: 3px solid var(--accent);
+      padding-bottom: 10px;
+    }
+    .contact-card .intro {
+      font-size: 0.95rem;
+      color: #555;
+      margin: 12px 0 8px;
+    }
+    .contact-card label {
+      display: block;
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin: 16px 0 6px;
+    }
+    .contact-card input,
+    .contact-card textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 1rem;
+      font-family: inherit;
+    }
+    .contact-card input:focus,
+    .contact-card textarea:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 1px;
+      border-color: var(--accent);
+    }
+    .contact-card [aria-invalid="true"] {
+      border-color: #c0392b;
+    }
+    .contact-card textarea {
+      resize: vertical;
+      min-height: 140px;
+    }
+    .contact-card .btn-envoyer {
+      margin-top: 22px;
+      width: 100%;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 13px;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+    .contact-card .btn-envoyer:hover { opacity: 0.9; }
+    .contact-card .btn-envoyer:disabled { opacity: 0.6; cursor: not-allowed; }
+    .contact-card .msg {
+      margin-top: 16px;
+      padding: 12px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+    .contact-card .msg:empty { display: none; }
+    .contact-card .msg.success { background: #e6f6ea; color: #1e7e34; }
+    .contact-card .msg.error { background: #fdecea; color: #c0392b; }
+    .contact-card .error-text {
+      color: #c0392b;
+      font-size: 0.8rem;
+      margin-top: 4px;
+    }
+    .contact-card .rgpd {
+      font-size: 0.8rem;
+      color: #666;
+      margin: 16px 0 0;
+    }
+    /* Piège à robots : invisible pour les humains et les lecteurs d'écran */
+    .contact-card .hp {
+      position: absolute;
+      left: -9999px;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+    @media (max-width: 400px) {
+      .contact-card { padding: 22px 18px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .animate__animated { animation: none !important; }
+    }
+  </style>
  
+  <!--
+    Les snippets Google (gtag.js G-67NY38SF7T et GTM-N58H8LW2) sont chargés en bas de page,
+    uniquement si l'utilisateur accepte la « Mesure d'audience ».
+  -->
 </head>
  
-<body>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N58H8LW2"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<body id="top">
+  <a
+    href="#top"
+    class="scrollTop"
+    id="scrollTopBtn"
+    aria-label="Retour en haut"
+    title="Retour en haut"
+  >↑</a>
+ 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Navigation principale">
       <div class="container">
         <a class="navbar-brand" href="https://femmegore.fr/">Femme-Goré</a>
  
@@ -196,141 +228,129 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li class="nav-item">
               <a class="nav-link" href="galerie.html">Galerie</a>
             </li>
-              <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link" href="cotation.html">Cotation AKOUN</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="mentions-legales.html">Mentions légales</a>
             </li>
-                            <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link" href="recherche.html">Rechercher</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="formulaire.html">Contact</a>
             </li>
-                                    <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link" href="selection.html">Sélection</a>
             </li>
           </ul>
- 
-      
         </div>
       </div>
     </nav>
   </header>
  
-  <main>
+  <main class="container py-4">
+    <nav aria-label="Fil d'Ariane" class="mb-3">
+      <ol class="breadcrumb justify-content-center">
+        <li class="breadcrumb-item"><a href="https://femmegore.fr/">Accueil</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+      </ol>
+    </nav>
+ 
     <div class="contact-wrapper">
       <div class="contact-card">
         <h1>Me contacter</h1>
-        <form id="contactForm" novalidate>
-          <label for="name">Nom</label>
-          <input type="text" id="name" name="name" required>
-          <span class="error-text" id="nameError">Merci d'indiquer votre nom.</span>
+        <p class="intro">
+          Une question sur un dessin, un achat, une exposition ou une collaboration ?
+          Écrivez-moi, je vous réponds dès que possible.
+        </p>
  
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
-          <span class="error-text" id="emailError">Merci d'indiquer un email valide.</span>
+        <!--
+          action + method : le formulaire fonctionne même si JavaScript est désactivé.
+          Avec JavaScript, l'envoi se fait sans quitter la page (voir script plus bas).
+        -->
+        <form
+          id="contactForm"
+          action="https://formspree.io/f/mbgjwkjz"
+          method="POST"
+          novalidate
+        >
+          <label for="name">Nom <span aria-hidden="true">*</span></label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="name"
+            maxlength="100"
+            required
+            aria-describedby="nameError"
+          >
+          <p class="error-text" id="nameError" hidden>Merci d'indiquer votre nom.</p>
  
-          <label for="message">Message</label>
-          <textarea id="message" name="message" required></textarea>
-          <span class="error-text" id="messageError">Merci d'écrire un message.</span>
+          <label for="email">Email <span aria-hidden="true">*</span></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            inputmode="email"
+            maxlength="150"
+            required
+            aria-describedby="emailError"
+          >
+          <p class="error-text" id="emailError" hidden>Merci d'indiquer un email valide.</p>
  
-          <!-- Piège à robots (anti-spam), doit rester vide et invisible -->
-          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <label for="message">Message <span aria-hidden="true">*</span></label>
+          <textarea
+            id="message"
+            name="message"
+            maxlength="5000"
+            required
+            aria-describedby="messageError"
+          ></textarea>
+          <p class="error-text" id="messageError" hidden>Merci d'écrire un message.</p>
  
-          <button type="submit" id="submitBtn">Envoyer</button>
-          <div class="msg" id="formMsg"></div>
+          <!-- Objet de l'email reçu -->
+          <input type="hidden" name="_subject" value="Nouveau message depuis femmegore.fr">
+ 
+          <!-- Piège à robots (anti-spam) : doit rester vide -->
+          <div class="hp" aria-hidden="true">
+            <label for="_gotcha">Ne pas remplir ce champ</label>
+            <input type="text" id="_gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+          </div>
+ 
+          <button type="submit" id="submitBtn" class="btn-envoyer">Envoyer</button>
+          <div class="msg" id="formMsg" role="status" aria-live="polite"></div>
+ 
+          <p class="rgpd">
+            * Champs obligatoires. Vos données servent uniquement à répondre à votre message ;
+            elles sont transmises via le service Formspree et ne sont ni vendues ni utilisées
+            à des fins commerciales. Plus d'informations dans les
+            <a href="mentions-legales.html">mentions légales</a>.
+          </p>
         </form>
       </div>
     </div>
   </main>
  
-<script>
-// Remplacez cette URL par la vôtre, obtenue gratuitement sur https://formspree.io
-// (créez un compte, un formulaire, et copiez l'URL "endpoint" fournie)
-const FORM_ENDPOINT = "https://formspree.io/f/mbgjwkjz";
- 
-const form = document.getElementById('contactForm');
-const submitBtn = document.getElementById('submitBtn');
-const formMsg = document.getElementById('formMsg');
- 
-function showFieldError(fieldId, show) {
-  document.getElementById(fieldId + 'Error').style.display = show ? 'block' : 'none';
-}
- 
-function validate() {
-  let valid = true;
-  const name = document.getElementById('name').value.trim();
-  const email = document.getElementById('email').value.trim();
-  const message = document.getElementById('message').value.trim();
-  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
- 
-  showFieldError('name', name === '');
-  if (name === '') valid = false;
- 
-  showFieldError('email', !emailPattern.test(email));
-  if (!emailPattern.test(email)) valid = false;
- 
-  showFieldError('message', message === '');
-  if (message === '') valid = false;
- 
-  return valid;
-}
- 
-form.addEventListener('submit', async function (e) {
-  e.preventDefault();
-  formMsg.className = 'msg';
-  formMsg.textContent = '';
- 
-  if (!validate()) return;
- 
-  submitBtn.disabled = true;
-  submitBtn.textContent = 'Envoi en cours...';
- 
-  try {
-    const response = await fetch(FORM_ENDPOINT, {
-      method: 'POST',
-      headers: { 'Accept': 'application/json' },
-      body: new FormData(form)
-    });
- 
-    if (response.ok) {
-      formMsg.className = 'msg success';
-      formMsg.textContent = 'Merci, votre message a bien été envoyé !';
-      form.reset();
-    } else {
-      throw new Error('Erreur serveur');
-    }
-  } catch (err) {
-    formMsg.className = 'msg error';
-    formMsg.textContent = "Une erreur est survenue. Merci de réessayer, ou de m'écrire directement par email.";
-  } finally {
-    submitBtn.disabled = false;
-    submitBtn.textContent = 'Envoyer';
-  }
-});
-</script>
- <footer class="bg-dark text-light p-3 mt-4">
+  <footer class="bg-dark text-light p-3 mt-4">
     <div class="container">
       <div class="d-flex flex-column flex-md-row fs-5 justify-content-between align-items-center gap-3">
-          <div>
-          GOLI Gore Gbaka — © Copyright 2026 ·
-    
+        <div>
+          GOLI Gore Gbaka — © <span id="annee">2026</span> ·
+          <a href="#" class="text-light" data-cookie-manage>Gérer mes cookies</a>
         </div>
  
         <div class="d-flex align-items-center gap-3">
-    
- 
           <a
             href="https://x.com/GoliGore33933"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="X"
-             title="X"
+            title="X"
             class="text-light"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
               <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
             </svg>
           </a>
@@ -340,10 +360,10 @@ form.addEventListener('submit', async function (e) {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Pinterest"
-             title="Pinterest"
+            title="Pinterest"
             class="text-light"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
               <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0"/>
             </svg>
           </a>
@@ -354,11 +374,121 @@ form.addEventListener('submit', async function (e) {
     </div>
   </footer>
  
+  <!--
+    Mesure d'audience : chargée UNIQUEMENT après consentement (comme sur l'accueil).
+    Le <noscript> GTM a été retiré : il chargeait un traceur sans consentement.
+  -->
+  <script type="text/plain" data-cookie-category="audience" async
+    src="https://www.googletagmanager.com/gtag/js?id=G-67NY38SF7T"></script>
+  <script type="text/plain" data-cookie-category="audience">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-67NY38SF7T', {
+      cookie_expires: 34128000 // 13 mois en secondes
+    });
+  </script>
+  <script type="text/plain" data-cookie-category="audience">
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N58H8LW2');
+  </script>
+ 
+  <script>
+    document.getElementById("annee").textContent = new Date().getFullYear();
+ 
+    (function () {
+      const form = document.getElementById('contactForm');
+      const submitBtn = document.getElementById('submitBtn');
+      const formMsg = document.getElementById('formMsg');
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+ 
+      const fields = {
+        name: v => v !== '',
+        email: v => emailPattern.test(v),
+        message: v => v !== ''
+      };
+ 
+      function checkField(id) {
+        const input = document.getElementById(id);
+        const ok = fields[id](input.value.trim());
+        document.getElementById(id + 'Error').hidden = ok;
+        input.setAttribute('aria-invalid', ok ? 'false' : 'true');
+        return ok;
+      }
+ 
+      function validate() {
+        let firstInvalid = null;
+        Object.keys(fields).forEach(id => {
+          if (!checkField(id) && !firstInvalid) firstInvalid = id;
+        });
+        if (firstInvalid) document.getElementById(firstInvalid).focus();
+        return !firstInvalid;
+      }
+ 
+      // L'erreur disparaît dès que le champ est corrigé
+      Object.keys(fields).forEach(id => {
+        document.getElementById(id).addEventListener('input', function () {
+          if (this.getAttribute('aria-invalid') === 'true') checkField(id);
+        });
+      });
+ 
+      function showMsg(type, text) {
+        formMsg.className = 'msg ' + type;
+        formMsg.textContent = text;
+      }
+ 
+      form.addEventListener('submit', async function (e) {
+        e.preventDefault();
+        showMsg('', '');
+ 
+        if (!validate()) return;
+ 
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Envoi en cours…';
+ 
+        try {
+          const response = await fetch(form.action, {
+            method: 'POST',
+            headers: { 'Accept': 'application/json' },
+            body: new FormData(form)
+          });
+ 
+          if (response.ok) {
+            showMsg('success', 'Merci, votre message a bien été envoyé ! Je vous réponds rapidement.');
+            form.reset();
+            Object.keys(fields).forEach(id =>
+              document.getElementById(id).removeAttribute('aria-invalid')
+            );
+          } else {
+            let detail = '';
+            try {
+              const data = await response.json();
+              if (data && data.errors) detail = ' (' + data.errors.map(er => er.message).join(', ') + ')';
+            } catch (_) { /* réponse non JSON */ }
+            throw new Error('Erreur serveur' + detail);
+          }
+        } catch (err) {
+          console.error(err);
+          showMsg('error', "Une erreur est survenue. Merci de réessayer dans quelques instants, ou de me contacter via X ou Pinterest.");
+        } finally {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Envoyer';
+        }
+      });
+    })();
+  </script>
+ 
+  <!-- Bandeau de consentement (le même sur toutes les pages) -->
+  <script src="cookie-consent.js" defer></script>
   <script src="script.js" defer></script>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"
+    defer
   ></script>
 </body>
 </html>
